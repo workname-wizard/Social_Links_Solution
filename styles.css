@@ -77,3 +77,31 @@ h2{
 }
 .comment{color:var(--White);
 font-style: italic;}
+
+.credit{
+    all:unset;
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--wizard-yellow);
+    width:fit-content;
+    border-radius:12px;
+    margin-top:16px;
+
+
+}
+.credit p{
+        color:var(--wizard-pink);
+        font-family: 'Sedgwick Ave',sans-serif;
+        font-size:1.8rem;
+        margin:0.8rem;
+}
+.credit img{
+    width:auto;
+    height:1.8rem;
+    margin:0.8rem;
+}
+
+.credit:hover{
+    background-color:var(--wizard-green);
+}
